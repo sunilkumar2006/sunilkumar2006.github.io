@@ -166,6 +166,15 @@ font-family: 'Oleo Script', cursive;
 	text-align: justify;
     color: #0a0a0a;
 }
+    .content-container li {
+        /*	font-family: Georgia, serif;*/
+        font-family: 'Oleo Script', cursive;
+        /*    font-family: 'Damion', cursive;    */
+        font-size: 20px;
+        line-height: 1.6;
+        text-align: justify;
+        color: #0a0a0a;
+    }
 
 .img-responsive {
 	margin: 0px auto;

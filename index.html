@@ -29,6 +29,23 @@
 	        z-index: 999999;
 	        background: url(images/loader/squares.gif) center no-repeat #fff;
 	    }
+        ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+#sub-navigation-home li:before { 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
 	 </style>
 </head>
 <body>
@@ -173,9 +190,24 @@
 			  	 	<img class="img-responsive" src="images/Programmer.png">
 			  	 </div>
 
-			  	 <div class="content-container col-md-8"> 
+			  	 <div id="sub-nav-container" class="content-container col-md-8"> 
 							   <h1>About Me</h1>
-                               <p class="about-me-content">It’s me, Sunil Kumar Indresh, hailed from Mysore, Karnataka. </p>
+                               <p class="about-me-content">
+                                   It’s me, Sunil Kumar Indresh, hailed from Mysore, Karnataka.
+                                   <ul id="sub-navigation-home">
+                                       <li> Expertise in Architecting and Designing middleware/data transition, intra/internet, enterprise and knowledge based/expert systems.</li>
+                                       <li> Experience in delivering large scale IT programs and extensive expertise in Project Management</li>
+                                       <li> Analyzing, Designing and Proposing Best Suited Strategy (IaaS, PaaS, SaaS) for the desired business outcomes</li>
+                                       <li> Experience in Microsoft Technologies, .Net Framework, ASP .Net MVC, ASP .Net Web forms, C#, LINQ, Web-Service, WCF, Web API, REST API, SOA, .Net Remoting, AJAX, JQuery, JavaScript, Bootstrap, Windows Forms, Object Oriented Analysis and Programming, SQL Server, Multi-Tier Client/Server Architecture</li>
+                                       <li> Experience working with Customers, IT decision maker and cross functional teams, partners and third party vendors.</li>
+                                       <li> Expertise in managing project roles, estimation, resourcing, defining project deliverables, providing customer satisfaction, and insuring quality of projects.</li>
+                                       <li> In-depth hands-on development and configuring experience.</li>
+                                       <li> Contributes best-in-class programming skills to develop and maintain highly innovative, consumer-facing Software Applications and Framework.</li>
+                                       <li> Impressive career driven by challenges and a desire to be successful in all endeavors; an effective communicator with exceptional analytical, technical, and client relationship management skills with the ability to relate to people at any level of business and management.</li>
+                                       <li> Expert in delivering projects using the appropriate agile project management methodology, learning & iterating frequently</li>
+                                   </ul>
+
+                               </p>
 			  	 </div>
 
 		 
