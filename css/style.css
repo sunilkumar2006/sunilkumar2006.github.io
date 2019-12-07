@@ -216,10 +216,10 @@ font-family: 'Oleo Script', cursive;
 	margin-bottom: 40px;
 }
 
-.html, .css, .bootstrap,.javascript, .jquery, .angularjs, .asp, .graphics {
-	height:60px;
-	/*background:#aae0aa;*/
-    width:90%;
+.html, .css, .bootstrap, .javascript, .jquery, .angularjs, .asp, .graphics {
+    height: 60px;
+    background:#4d4db8;
+    width: 90%;
     float: left;
 }
 
